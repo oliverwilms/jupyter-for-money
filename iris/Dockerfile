@@ -12,6 +12,7 @@ USER irisowner
 WORKDIR /opt/irisapp
 COPY --chown=irisowner:irisowner src src
 COPY --chown=irisowner:irisowner iris/iris.script iris.script
+COPY --chown=irisowner:irisowner java.sh java.sh
 
 # run iris.script
 RUN iris start IRIS \
