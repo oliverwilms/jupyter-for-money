@@ -6,6 +6,6 @@ export CLASSPATH=.:/usr/irissys/dev/java/lib/1.8/*
 
 echo "Building..."
 cd /opt/irisapp
-javac -classpath $CLASSPATH -d . java/IRISNative.java
+javac -classpath $CLASSPATH -d . /usr/irissys/mgr/java/IRISNative.java
 echo "Executing..."
 java IRISNative /opt/irisapp/excel/money.xls
