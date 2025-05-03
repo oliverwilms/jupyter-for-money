@@ -7,5 +7,8 @@ mistral_common
 langchain_mistralai
 langchain-openai
 langchain_iris
+matplotlib
+pandas
+seaborn
 transformers
 torch
