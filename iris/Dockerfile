@@ -14,6 +14,8 @@ COPY --chown=irisowner:irisowner src src
 COPY --chown=irisowner:irisowner iris/iris.script iris.script
 COPY --chown=irisowner:irisowner java.sh java.sh
 
+RUN chmod ugo+x /opt/irisapp/*.sh
+
 # run iris.script
 RUN iris start IRIS \
     && iris session IRIS < /opt/irisapp/iris.script \
