@@ -16,6 +16,9 @@
 
     zpm "enable -community"
 
+    // xls to csv
+    zpm "install excel-java-iris"
+
     // install some sample data (Holefoods, etc.)
     zpm "install samples-bi"
 
