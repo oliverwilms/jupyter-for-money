@@ -146,3 +146,8 @@ Successfully copied 2.05kB to /home/ec2-user/jupyter-for-money/money.csv
 [ec2-user@ip-172-31-44-82 jupyter-for-money]$ docker cp money.csv jupyter:/home/jovyan/money.csv
 Successfully copied 2.05kB to jupyter:/money.csv
 ```
+## Jupyter
+
+Here is the data in Jupyter:
+
+![screenshot](https://github.com/oliverwilms/bilder/blob/main/Screenshot_Jupyter.png)
