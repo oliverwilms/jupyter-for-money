@@ -50,7 +50,14 @@ $ docker-compose up -d
 ```
 
 ## Stage the data
-
+A sample file is included.
+```
+$ docker exec -it iris bash
+irisowner@184619d1c385:/opt/irisapp$ cd /usr/irissys/mgr/excel/
+irisowner@184619d1c385:/usr/irissys/mgr/excel$ ls -ltr
+total 28
+-rwxr-xr-x. 1 irisowner irisowner 26112 May  4 15:52 money.xls
+```
 ## Execute java
 
 java.sh script executes IRISNative java code with parameter "/usr/irissys/mgr/excel/money.xls" as the excel input file.
