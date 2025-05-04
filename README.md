@@ -127,8 +127,15 @@ Select * from dc_iris.transact
 
 ## CSV file
 
-If you do not provide a file parameter, the following command will produce /opt/irisapp/dc_iris-transact.csv.
+You can add a file parameter to the command below to specify the location of the CSV file.
 ```
-w ##class(otw.excel.iris).exportToCSV(file)
+do ##class(otw.iris.excel).exportToCSV()
 ```
 
+```
+LLMRAG>do ##class(otw.iris.excel).exportToCSV()
+
+End of data
+Total row count=2
+Export to /opt/irisapp/dc_iris-transact.csv completed.
+```
