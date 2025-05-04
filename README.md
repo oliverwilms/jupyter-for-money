@@ -52,12 +52,14 @@ $ docker-compose up -d
 ## Stage the data
 
 ## Execute java
+
+java.sh script executes IRISNative java code with parameter "/usr/irissys/mgr/excel/money.xls" as the excel input file.
 ```
 irisowner@12f8c54b639f:/opt/irisapp$ ./java.sh
 Building...
 Executing...
 ```
-populates ^excel in USER namespace. 
+IRISNative.java populates ^excel in USER namespace. 
 
 ![screenshot](https://github.com/oliverwilms/bilder/blob/main/Money_xls.PNG)
 
