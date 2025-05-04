@@ -12,6 +12,7 @@ USER irisowner
 WORKDIR /opt/irisapp
 COPY --chown=irisowner:irisowner src src
 COPY --chown=irisowner:irisowner iris/iris.script iris.script
+COPY --chown=${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} iris/*.jar /usr/irissys/dev/java/lib/1.8/
 COPY --chown=irisowner:irisowner java.sh java.sh
 
 RUN chmod ugo+x /opt/irisapp/*.sh
