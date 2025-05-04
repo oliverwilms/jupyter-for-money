@@ -13,6 +13,7 @@ XData Install [ XMLNamespace = INSTALLER ]
     <Namespace Name="${NAMESPACE}" Code="${NAMESPACE}" Data="${NAMESPACE}" Create="yes" Ensemble="0">
         <Configuration>
             <Database Name="${NAMESPACE}" Dir="${MGRDIR}${DBNAME}" Create="yes" MountAtStartup="true"/>
+            <GlobalMapping Global="excel" From="USER"/>
         </Configuration>
         <Log Text="Enable interoperability to ${NAMESPACE}..." Level="0"/>
 	    <Invoke Class="%Library.EnsembleMgr" Method="EnableNamespace" CheckStatus="true">
