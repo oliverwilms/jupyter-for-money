@@ -49,14 +49,14 @@ Open the terminal in this directory and run:
 $ docker-compose up -d
 ```
 
-Stage the data
+## Stage the data
 
-Execute java
-
+## Execute java
+```
 irisowner@12f8c54b639f:/opt/irisapp$ ./java.sh
 Building...
 Executing...
-
+```
 populates ^excel in USER namespace. 
 
 ![screenshot](https://github.com/oliverwilms/bilder/blob/main/Money_xls.PNG)
