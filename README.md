@@ -124,3 +124,11 @@ I added -1 above because I want to start importing with sheet 0. In my personal 
 ![screenshot](https://github.com/oliverwilms/bilder/blob/main/Capture_SQL.JPG)
 
 Select * from dc_iris.transact
+
+## CSV file
+
+If you do not provide a file parameter, the following command will produce /opt/irisapp/dc_iris-transact.csv.
+```
+w ##class(otw.excel.iris).exportToCSV(file)
+```
+
