@@ -1,6 +1,6 @@
 # jupyter-for-money
 
-Lately I reviewed many apps dealing with AI and I came across workshop-llm. I got inspired so that I wanted to create a Jupyter Notebook for analyzing personal financial data. I saw that I needed a CSV input file. My data is in Excel workbook with many sheets. I am not aware of any tool to export multiple sheets into a CSV file.
+Lately I reviewed many apps dealing with AI and I came across workshop-llm. I got inspired so that I wanted to create a Jupyter Notebook for analyzing personal financial data. I saw that I needed a CSV input file. My data is in Excel workbook with many sheets. I am not aware of any tool to export multiple sheets into a single CSV file.
 
 ## excel-java-iris
 
