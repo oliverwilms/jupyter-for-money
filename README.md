@@ -31,7 +31,7 @@ Class dc.iris.transact Extends %Persistent [ StorageStrategy = NewStorage1 ]
 <Global>^GLOBAL</Global>
 
 I updated the iris Dockerfile in jupyter-for-money to copy java.sh script which builds (compiles) java code and executes it.
-I realized that I also needed jar in lib folder.
+I realized that I also needed jar in lib folder. I copy jar file into iris image in Dockerfile. Now on to jupyter-for-money.
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
