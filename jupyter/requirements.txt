@@ -9,6 +9,7 @@ langchain-openai
 langchain_iris
 matplotlib
 pandas
+plotly
 seaborn
 transformers
 torch
