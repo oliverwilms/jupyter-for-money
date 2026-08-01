@@ -1,6 +1,8 @@
 pypdf
 sentence-transformers
+anywidget
 ipywidgets
+jupyterlab
 langchain-text-splitters
 langchain-community
 mistral_common
