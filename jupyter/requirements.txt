@@ -13,5 +13,6 @@ matplotlib
 pandas
 plotly
 seaborn
+sqlalchemy-intersystems-iris
 transformers
 torch
